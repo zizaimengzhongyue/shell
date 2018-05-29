@@ -1,4 +1,6 @@
 while read line
 do
-    echo $line | cut -b 2 -b 7
+    first=$(echo $line | cut -c 2)
+    second=$(echo $line | cut -c 7)
+    echo "$first$second"
 done
