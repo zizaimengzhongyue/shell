@@ -33,7 +33,7 @@
   ```
   var1=`date`
   echo $var1
-  var2=`date`
+  var2=$(date)
   echo $var2
   ```
 ### 执行数学运算
